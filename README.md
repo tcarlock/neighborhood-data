@@ -7,4 +7,5 @@ This repo contains data and code for geolocation search and visualization
 
 Dependencies
 ____________
-* ogr2ogr
+* brew install gdal (http://www.gdal.org/)
+* brew install postgis (http://live.osgeo.org/en/quickstart/postgis_quickstart.html)

@@ -24,7 +24,7 @@ do
 
     #need the postgis client tools for this one to work
     #take the files and output the sql files to a different directory
-    shp2pgsql -s 4326 -I -D $var  $table_name > ../psql/$output_pg
+    shp2pgsql -s 4326 -I -D $var  $table_name > output/$output_pg
 
     printf ":%s\n" $table_name
 done
